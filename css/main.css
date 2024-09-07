@@ -875,6 +875,8 @@ img {
   -webkit-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
+  /* width: 70px;
+  height: 70px; */
 }
 
 .main-header .header-upper .outer-box {
@@ -3467,17 +3469,24 @@ img {
 
 .page-banner-image-section .image {
   position: relative;
+  background-image: url(../images/background/about.jpeg);
+  background-size: cover;
+  background-position: top right;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .page-banner-image-section .image-text {
-  position: absolute;
+  /* position: absolute;
   transform: translate(40%, 40%);
   top: 40%;
-  left: 40%;
-  font-size: 40px;
+  left: 40%; */
+  font-size: 70px;
   font-weight: bolder;
   text-align: center;
-  color: white;
+  color: #2c724f;
 }
 
 .page-banner-image-section .image img {
