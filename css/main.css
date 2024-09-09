@@ -1919,6 +1919,8 @@ img {
 
 .banner-section .content-column {
   position: relative;
+  background: #c5bbbb80;
+  padding: 10px;
 }
 
 .banner-section .content-column .inner-column {
@@ -1956,7 +1958,7 @@ img {
 
 .banner-section .content-column h1 {
   position: relative;
-  color: #000000;
+  color: #666666;
   font-weight: 300;
   line-height: 1.1em;
   opacity: 0;
@@ -1990,8 +1992,9 @@ img {
 .banner-section .content-column .text {
   position: relative;
   /* color: #666666; */
-  color: white;
-  font-weight: 400;
+  /* color: white; */
+  color: rgb(53, 51, 51);
+  font-weight: 500;
   line-height: 1.7em;
   opacity: 0;
   font-size: 18px;
