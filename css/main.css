@@ -3193,6 +3193,7 @@ img {
 
 .main-footer {
   position: relative;
+  background-color: transparent;
 }
 
 .main-footer.style-two {
