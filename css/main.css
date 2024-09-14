@@ -869,6 +869,7 @@ img {
 }
 
 .main-header .header-upper .logo-box .logo {
+  width: 130px;
   position: relative;
   transition: all 500ms ease;
   -moz-transition: all 500ms ease;
