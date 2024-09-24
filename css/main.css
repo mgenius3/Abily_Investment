@@ -126,6 +126,7 @@ body {
   background: #ffffff;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
+  text-align: justify;
 }
 
 .bordered-layout .page-wrapper {
@@ -207,6 +208,7 @@ textarea {
 p {
   position: relative;
   line-height: 1.8em;
+  text-align: justify;
 }
 
 .auto-container {
